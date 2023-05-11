@@ -5,8 +5,20 @@
     font-style: normal;
 }
 
+@font-face {
+    font-family: 'Russo';
+    src: url('/extra_fonts/RussoOne-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
 body {
   background-color: #0f0f0f;
+}
+
+h1 {
+  font-family: Russo;
+  color: #f0f0f0;
 }
 
 h2 {
