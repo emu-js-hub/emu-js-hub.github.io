@@ -49,11 +49,12 @@ p {
 	  
       /* Style for the arrows */
       .arrow {
-        font-size: 30px;
+        color: #eee;
+        font-size: 42px;
         cursor: pointer;
         user-select: none;
       }
       .arrow.disabled {
-        color: #ccc;
+        color: #000;
         cursor: default;
       }
