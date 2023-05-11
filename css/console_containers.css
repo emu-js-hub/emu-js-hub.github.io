@@ -1,0 +1,38 @@
+/* Style for the console containers */
+      .console {
+        margin: 20px 0;
+      }
+      .console h2 {
+        font-size: 24px;
+        margin-bottom: 10px;
+      }
+      .console .game-list {
+        display: flex;
+        overflow-x: auto;
+        padding-bottom: 10px;
+      }
+      .console .game-list img {
+        height: 224px;
+        margin-right: 10px;
+      }
+      .console .game-list::-webkit-scrollbar {
+        height: 10px;
+      }
+      .console .game-list::-webkit-scrollbar-track {
+        background: #f1f1f1;
+      }
+      .console .game-list::-webkit-scrollbar-thumb {
+        background: #888;
+        border-radius: 5px;
+      }
+	  
+      /* Style for the arrows */
+      .arrow {
+        font-size: 30px;
+        cursor: pointer;
+        user-select: none;
+      }
+      .arrow.disabled {
+        color: #ccc;
+        cursor: default;
+      }
