@@ -1,12 +1,16 @@
 @font-face {
     font-family: 'Prototype';
-    src: url('extra_fonts/proto.ttf') format('truetype');
+    src: url('/extra_fonts/proto.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
 
-. {
+h2 {
     font-family: Prototype;
+}
+
+p {
+  font-family: sans-serif;
 }
 
 /* Style for the console containers */
