@@ -5,12 +5,18 @@
     font-style: normal;
 }
 
+body {
+  background-color: #0f0f0f;
+}
+
 h2 {
-    font-family: Prototype;
+  font-family: Prototype;
+  color: #ffffff;
 }
 
 p {
   font-family: sans-serif;
+  color: #cccccc;
 }
 
 /* Style for the console containers */
