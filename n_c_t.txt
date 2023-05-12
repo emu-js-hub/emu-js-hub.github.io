@@ -1,6 +1,41 @@
 NES
-nfc[dd][mm][yy][i].nez
+hvc[dd][mm][yy][i].nez
 dd=day
 mm=month
 yy=year
 i=mapper
+
+SNES
+sns[dd][mm][yy][c].swc
+dd=day
+mm=month
+yy=year
+c=chip (0=none,1=fx,2=other)
+
+N64
+nus[dd][mm][yy][e].z64
+dd=day
+mm=month
+yy=year
+e=expansion? (0=no,1=yes)
+
+GB
+dmg[dd][mm][yy][s][c].gb
+dd=day
+mm=month
+yy=year
+s=super enhanced? (0=no,1=yes)
+c=color enhanced? (0=no,1=yes)
+
+GBC
+cgb[dd][mm][yy].gbc
+dd=day
+mm=month
+yy=year
+
+GBA
+agb[dd][mm][yy][s]
+dd=day
+mm=month
+yy=year
+s=sound format (0=mp2k,1=other)
