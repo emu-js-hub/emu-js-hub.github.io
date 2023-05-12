@@ -1,0 +1,6 @@
+NES
+nfc[dd][mm][yy][i].nez
+dd=day
+mm=month
+yy=year
+i=mapper

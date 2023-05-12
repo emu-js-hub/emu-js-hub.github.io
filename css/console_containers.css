@@ -70,3 +70,9 @@ p {
         color: #000;
         cursor: default;
       }
+
+/* Image hover effect */
+.console .game-list img:hover {
+  transform: scale(1.1); /* Increase the size by 10% */
+  transition: all 0.3s ease-in-out; /* Add a smooth transition effect */
+}
